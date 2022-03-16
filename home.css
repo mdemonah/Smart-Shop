@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fec59d;
+    /*overflow: hidden;*/
+}
+.conten{
+    background-color: #ffebc2;
+    height: auto;
+    width: 1165px;
+    margin: 60px;
+    box-sizing: border-box;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header{
+    padding: none;
+}
+.h-color p{
+    color: black;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.h-ul{
+    padding: 30px 0;
+    text-align: center;
+}
+.h-ul ul li{
+    color: black;
+    display: inline-block;
+    padding: 0 5px;
+    text-align: center;
+}
+.h-ul ul li:hover{
+    color: #ffc107;
+}
+.container-fluid{
+    padding-top: 20px;
+}
+.btn-outline-success{
+    border: 1px solid #ffc107;
+}
+.btn-outline-success:hover{
+    background-color: #ffc107;
+}
+.back-c{
+    padding-top: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.back-c p{
+    color: black;
+}
+.back-c span{
+    color: #fff;
+}
+.back-c2 h3{
+    color: black;
+    padding-top: 40px;
+    text-align: center;
+}
+.back-c3 p{
+    padding-top: 40px;
+    color: black;
+    text-align: right;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.back-c3 span{
+    font-size: 13px;
+    cursor: pointer;
+    color: #fff;
+}
+.back-c3 i{
+    padding-left: 8px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.backgroun-h{
+    background-color: orange;
+    height: 300px;
+    width: 1075px;
+    border-radius: 40px;
+    margin: 0 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:relative;
+}
+.img-over{
+    position: absolute;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+.img-over img{
+    height: 400px;
+    width: 970px;
+    border-radius: 30px; 
+}
+.titel p{
+    writing-mode: vertical-lr;
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 12px;
+    color: black;
+}
+.titel h6{
+    writing-mode: vertical-rl;
+    float: right;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 16px;
+    color: black;
+}
+.categories{
+    background-color: orange;
+    height: 300px;
+    width: 1075px;
+    border-radius: 40px;
+    margin: 0 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 350px;
+    position:relative;
+}
+.card-b{
+    position: absolute;
+    background-color: none;
+}
+.card{
+    margin-top: 20px;
+    background-color: #ffffff00;
+    border: 1px solid #ffffff00;
+    box-sizing: border-box;
+}
+.row-cols-1{
+    box-sizing: border-box;
+}
+.card-c img{
+    height: 170px;
+}
+.card-c h5{
+    color: black;
+    text-align: center;
+    padding: 8px 0;
+}
+.card-c p{
+    font-size: 12px;
+    color: #333;
+    padding-top: 5px;
+    float: right;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.card-c1{
+    background-color: #e7e730;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.card-c3{
+    border-radius: 10px;
+    background-color: #e7e730;
+ 
+}
+.card-c4{
+    background-color: #e7e730;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.titel2 p{
+    writing-mode: vertical-lr;
+    float: left;
+    padding-left: 20px;
+    padding-top: 100px;
+    font-size: 14px;
+    color: black;
+}
+.titel2 p i{
+    font-size: 17px;
+    writing-mode: vertical-lr;
+    padding-top: 15px;
+}
+.titel2 h6{
+    writing-mode: vertical-rl;
+    float: right;
+    padding-right: 20px;
+    padding-top: 100px;
+    font-size: 16px;
+    color: black;
+}
+.titel2 h6 i{
+    font-size: 17px;
+    writing-mode: vertical-lr;
+    padding-top: 15px;
+}
+.team{
+    clear: both;
+    box-sizing: border-box;
+}
+.team-p{
+    padding-top: 500px;
+}
+.our-team{
+    padding:20px;
+}
+.our-team h2{
+    padding: 10px;
+    color: black;
+}
+.our-team p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 30px;
+    color: #3d316c;
+}
+.card-img img{
+    height:150px;
+    width: 150px;
+    border: 10px solid #fff;
+    border-radius: 80px;
+    margin-left: 43px;
+    margin-top: 50px;
+}
+.card-img h5{
+    text-align: center;
+    color: black;
+}
+.card-img p{
+    text-align: center;
+    color: orange;
+}
+.card-img p:hover{
+    color: black;
+}
+.faq{
+    clear: both;
+}
+.faq img{
+    padding: 100px 30px;
+}
+.faq h1{
+    box-sizing: border-box;
+    font-size: 60px;
+    padding-top: 130px;
+    padding-left: 40px;
+    color: #00b9b0;
+}
+.faq p{
+    font-size: 15px;
+    padding: 10px 40px;
+    line-height: 30px;
+    text-align: justify;
+    color: #333;
+}
+.faq button{
+    margin-left: 40px;
+    color: #fff;
+    background-color: #00b9b0;
+}
+.backgroun-h2{
+    background-color: orange;
+    height: 150px;
+    width: 1075px;
+    border-radius: 40px;
+    margin: 0 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:relative;
+}
+.product-b{
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 23px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product{
+    box-sizing: border-box;
+    margin: 0 40px;
+    text-align: center;
+
+}
+.container h3{
+    padding-top:7px;
+    color: black;
+}
+.container p{
+    color: #333;
+    margin-left: 20px;
+}
+.p-color{
+    color: #5b45c7;
+}
+.footer{
+    background-color: black;
+    margin-top: 150px;
+    border-radius: 20px;
+    height:auto;
+}
+.footer-d h4{
+    color: #fff;
+    padding: 20px 25px;
+}
+.footer-d span{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+.footer-d p{
+    color: #ffebc2;
+ 
+}
+.footer-ul ul{
+    color: #00b9b0;
+    display: inline-block;
+    padding: none;
+}
+.footer-ul ul li{
+    display: inline-block;
+    padding: none;
+    font-size: 20px;
+    padding:0 10px;
+    cursor: pointer;
+}
+.footer-icon{
+    padding-right:8px;
+    color: #00b9b0;
+}
+.latest-i img{
+    width: 80px;
+    height: 80px;
+    padding:0 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.footer-text p{
+    padding:10px 0;
+    text-align: center;
+    color: #ffebc2;
+}
+.footer-form{
+    text-align: center;
+    margin:0 30px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.footer-i input{
+    width:180px;
+    margin-bottom: 20px;
+}
+.footer-b button{
+    width:180px;
+    height: 40px;
+    margin-top:27px;
+    margin-left:80px;
+}
+.footer-in input{
+    margin-left:180px;
+}
+.footer-in2 input{
+    margin-left:120px;
+}
